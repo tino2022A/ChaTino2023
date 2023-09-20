@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinoChat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <h2>TinoChat</h2>
+        <div id="chat-messages">
+            <!-- Los mensajes del chat se agregarán aquí -->
+        </div>
+        <input type="text" id="chat-input" class="chat-input" placeholder="Escribe tu mensaje">
+        <input type="file" id="file-input">
+        <audio id="voice-audio" controls></audio>
+        <button id="send-button">Enviar</button>
+        <button id="download-button">Descargar Archivo</button>
+        <button id="clear-chat" class="clear-chat-button">Borrar Historial</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

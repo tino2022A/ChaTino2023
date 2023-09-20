@@ -1,0 +1,21 @@
+/* Estilos CSS aquí */
+body {
+    background-image: url('fondo.jpg'); /* Cambia 'fondo.jpg' por la URL de tu imagen de fondo */
+    background-size: cover;
+}
+.chat-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+}
+.chat-input {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+}
+.clear-chat-button {
+    background-color: red;
+    color: white;
+}
