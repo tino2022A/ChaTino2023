@@ -1,6 +1,6 @@
 /* Estilos CSS aquí */
 body {
-    background-image: url('fondo.jpg'); /* Cambia 'fondo.jpg' por la URL de tu imagen de fondo */
+    background-image: url('https://th.bing.com/th/id/OIG.FQjAc4jhGDmLmq_O1MaD?w=270&h=270&c=6&r=0&o=5&dpr=1.1&pid=ImgGn'); /* Cambia 'fondo.jpg' por la URL de tu imagen de fondo */
     background-size: cover;
 }
 .chat-container {
